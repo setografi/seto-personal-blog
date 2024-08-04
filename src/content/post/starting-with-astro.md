@@ -70,18 +70,17 @@ Astro JS supports using components from various frameworks like React, Vue, and 
 1. Install React and React DOM with the command:
 
 ```html
----
-title: "Home"
----
-
 npm install react react-dom
 ```
 
 2. Create a `Button.jsx` file in the `src/components` directory with the following content:
 
 ```html
-import React from 'react'; const Button = () => { return <button>Click me!</button>; }; export
-default Button;
+import React from 'react'; function Button() { return (
+<div className="button">
+	<button>Click me!</button>
+</div>
+); } export default Button;
 ```
 
 3. Use the component in the `index.astro` file:
