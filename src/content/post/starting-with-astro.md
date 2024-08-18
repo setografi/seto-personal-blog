@@ -20,7 +20,7 @@ Before starting with Astro JS, make sure you have Node.js and npm installed on y
 1. Install Node.js and npm from the official [Node.js](https://nodejs.org/en) website.
 2. Create a new project with the command:
 
-```html
+```
 npm create astro@latest
 ```
 
@@ -28,13 +28,13 @@ npm create astro@latest
 
 Let's create our first Astro JS project. Use the following command to create a new project:
 
-```html
+```
 npm create astro@latest
 ```
 
 Choose the desired template or use the default template to get started. Once the project is created, navigate to the project directory and start the development server with:
 
-```html
+```
 npm start
 ```
 
@@ -44,7 +44,7 @@ Open your browser and access `http://localhost:3000` to see your first Astro JS 
 
 Astro JS allows you to create static pages easily. Create an index.astro file in the src/pages directory and add the following HTML content:
 
-```html
+```astro
 ---
 title: "Home"
 ---
@@ -69,23 +69,29 @@ Astro JS supports using components from various frameworks like React, Vue, and 
 
 1. Install React and React DOM with the command:
 
-```html
+```
 npm install react react-dom
 ```
 
 2. Create a `Button.jsx` file in the `src/components` directory with the following content:
 
-```html
-import React from 'react'; function Button() { return (
-<div className="button">
-	<button>Click me!</button>
-</div>
-); } export default Button;
+```jsx
+import React from 'react'; 
+
+function Button() { 
+	return (
+		<div className="button">
+			<button>Click me!</button>
+		</div>
+	); 
+} 
+
+export default Button;
 ```
 
 3. Use the component in the `index.astro` file:
 
-```html
+```astro
 ---
 import Button from '../components/Button.jsx';
 ---
@@ -98,7 +104,7 @@ import Button from '../components/Button.jsx';
 
 Once you are satisfied with your project, it's time to publish it. Use the following command to build the project:
 
-```html
+```
 npm run build
 ```
 

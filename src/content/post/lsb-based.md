@@ -2,12 +2,12 @@
 title: "LSB Steganography: Hiding Messages in Images"
 description: "Learn how LSB Steganography can be used to hide secret messages in digital images, including the importance of delimiters and suitable image formats."
 publishDate: "04 August 2024"
-tags: ["steganography", "LSB", "information_security", "encryption", "digital_images"]
+tags: ["steganography", "LSB", "information_security", "encryption", "digital_images", "knowledge"]
 ---
 
 ## Introduction
 
-Steganography is the art of hiding information within another medium so that only the intended recipient can detect and extract the hidden message. One of the simplest and most popular steganographic techniques is Least Significant Bit (LSB) steganography.
+**Steganography** is the art of hiding information within another medium so that only the intended recipient can detect and extract the hidden message. One of the simplest and most popular steganographic techniques is **Least Significant Bit (LSB)** steganography.
 
 ## What is Least Significant Bit (LSB) Steganography?
 
@@ -27,11 +27,11 @@ Lossless image formats such as PNG and BMP are more suitable for LSB steganograp
 
 ## Steps to Hide Messages Using LSB
 
-1. Choose an Image: Select an image in PNG or BMP format.
-2. Convert the Message: Convert the message you want to hide into binary form.
-3. Embed the Bits: Embed the message bits into the least significant bits of each byte in the image pixels.
-4. Add Delimiters: Add delimiters at the start and end of the message.
-5. Save the Image: Save the modified image.
+1. **Choose an Image**, select an image in PNG or BMP format.
+2. **Convert the Message**, convert the message you want to hide into binary form.
+3. **Embed the Bits**, embed the message bits into the least significant bits of each byte in the image pixels.
+4. **Add Delimiters**, add delimiters at the start and end of the message.
+5. **Save the Image**, save the modified image.
 
 ## Conclusion
 
